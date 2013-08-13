@@ -1,0 +1,22 @@
+{
+  "name": "songbee/lastfm",
+  "description": "The simplest Last.fm library for PHP",
+  "keywords": ["lastfm"],
+  "homepage": "https://github.com/Songbee/lastfm.php",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ale110",
+      "email": "ale@incrowd.ws",
+      "homepage": "http://ale.incrowd.ws/"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-0": {"LastfmPhp": "src/"}
+  }
+}
